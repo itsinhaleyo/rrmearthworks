@@ -1,0 +1,23 @@
+{
+  "name": "RRM Earthworks",
+  "version": "1.0.0",
+  "description": "RRM Earthworks Landing Page",
+  "main": "src/index.js",
+  "keywords": [],
+  "author": "Stephen Hartnell",
+  "license": "ISC",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.21.0",
+    "dotenv": "^18.0.9",
+    "ejs": "^7.0.2",
+    "express": "^5.3.0",
+    "express-session": "^1.19.0",
+    "nodemailer": "^10.3.1",
+    "nodemon": "^3.1.14",
+    "vhost": "^3.0.2"
+  }
+}
